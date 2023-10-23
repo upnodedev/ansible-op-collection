@@ -24,13 +24,13 @@ This command will install all related roles at once.
 In some case, you only want a specific role in the collection. You can install a specific role with the following command.
 
 ```
-ansible-galaxy collection install upnodedev.op
+ansible-galaxy collection install upnodedev.op.<ROLE_NAME>
 ```
 
 For example,
 
 ```
-ansible-galaxy collection install upnodedev.op
+ansible-galaxy collection install upnodedev.op.roll_op
 ```
 
 ## Example Playbooks
